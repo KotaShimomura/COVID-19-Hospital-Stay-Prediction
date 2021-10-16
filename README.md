@@ -1,6 +1,6 @@
 # COVID-19-Hospital-Stay-Prediction
 
-# [ゼミコンペ](https://www.kaggle.com/c/1056lab-covid19-hospital-stay-prediction/data?select=train.csv)のbaseline,多クラス分類で使用
+# [ゼミコンペ](https://www.kaggle.com/c/1056lab-covid19-hospital-stay-prediction/data?select=train.csv)のbaseline,多クラス分類用code
 ## 実行環境
 ubuntu : 20.04  
 Docker version 20.10.8  
@@ -30,3 +30,7 @@ simple_submission.csv - a sample submission file in the correct format.
 `Age` - `0-10`, `11-20`, `21-30`, `31-40`, `41-50`, `51-60`, `61-70`, `71-80`, `81-90` or `91-100`  
 `Admission_Deposit` - Deposit at the admission time  
 `Stay_Days` - Stay days by the patient: `0-10`, `11-20`, `21-30`, `31-40`, `41-50`, `51-60`, `61-70`, `71-80`, `81-90`, `91-100`, `101-`  
+
+# 実行用ファイル
+
+`lgbm_baseline.ipynb`
